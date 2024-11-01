@@ -32,7 +32,7 @@ export default function Home() {
       <div className="max-w-6xl mx-auto space-y-8">
         <div className="text-center space-y-3">
           <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#60a5fa] to-[#3b82f6]">
-            Silicon Maze'24
+            Silicon Maze&apos;24
           </h1>
           <h2 className="text-2xl text-gray-300">Get your certificates here!</h2>
         </div>
@@ -80,7 +80,7 @@ export default function Home() {
 
         <footer className="text-center space-y-2 mt-8">
           <p className="text-gray-300">
-            Thank you for participating in Silicon Maze'24!
+            Thank you for participating in Silicon Maze&apos;24!
           </p>
           <p className="text-[#60a5fa] font-medium">
             Congratulations on your remarkable achievement! 🎉
