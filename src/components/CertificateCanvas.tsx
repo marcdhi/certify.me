@@ -35,7 +35,7 @@ export default function CertificateCanvas({
   textElements = []
 }: CertificateCanvasProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
-  const config = { ...defaultConfig, ...textElements.reduce((acc, { config }) => ({ ...acc, ...config }), {})}
+  // const config = { ...defaultConfig, ...textElements.reduce((acc, { config }) => ({ ...acc, ...config }), {})}
 
   useEffect(() => {
     const canvas = canvasRef.current
